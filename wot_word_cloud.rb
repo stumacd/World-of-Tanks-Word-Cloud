@@ -92,8 +92,7 @@ if options[:mychat].nil?
 end
 
 # Probably leave this alone - you might need to change if you use WOT in language other than english.
-IGNORE_CHAT = ["Attention","Requesting","Attacking","Reloading!","Help!","Sector","Affirmative!","Negative!","Defend","Attack!","spotted"]
-
+IGNORE_CHAT = ["Attention","Requesting","Attacking","Reloading","Help!","Sector","Affirmative!","Negative!","Defend","Attack!","spotted","Spotted","Ready","Shells","seconds","Refilling","Reloading!"]
 colours = {
             "FFC364" => :platoonchat,
             "80D63A" => :teamchat,
